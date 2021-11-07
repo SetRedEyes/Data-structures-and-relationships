@@ -69,7 +69,7 @@ export const publisherExampleNormalizedByPublisher = `//Publisher Entity
     name: "O'Reilly Media",
     founded: 1980,
     location: "CA",
-    books: [123456789, 234567890, ...]
+    books: [123456789, 234567890, ...] //нормально хранить до 300 ссылок
  }
  //Book Entity
  {

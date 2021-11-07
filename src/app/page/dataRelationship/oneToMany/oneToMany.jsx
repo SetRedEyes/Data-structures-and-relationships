@@ -44,14 +44,18 @@ const OneToManyPage = () => {
                 theme={dracula}
                 wrapLines={true}
             />
-            <SmallTitle>2. Нормализованные данные по Издателю</SmallTitle>
+            <SmallTitle>
+                2. Нормализованные данные по Издателю (нисходящее отношение)
+            </SmallTitle>
             <CodeBlock
                 text={publisherExampleNormalizedByPublisher}
                 language="js"
                 theme={dracula}
                 wrapLines={true}
             />
-            <SmallTitle>3. Нормализованные данные по Книге</SmallTitle>
+            <SmallTitle>
+                3. Нормализованные данные по Книге (восходящее отношение)
+            </SmallTitle>
             <CodeBlock
                 text={publisherExampleNormalizedByBook}
                 language="js"
